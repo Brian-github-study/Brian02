@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+body {
+  margin: 0;
+}
+/* nav */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1em;
+  width: 25%;
+}
+.nav-list li {
+  /* width: 100px; */
+  text-align: center;
+  line-height: 75px;
+  font-size: x-large;
+}
+nav a {
+  text-decoration: none;
+  color: #be3144;
+}
+/* project01 */
+.project01 .basic_data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project01 .basic_data img {
+  width: 15em;
+}
+.project01 .basic_data span {
+  color: white;
+  margin: 5em;
+}
+/* project02 */
+.project02 .autobiography {
+  display: flex;
+  justify-content: center;
+}
+.project02 .autobiography div {
+  width: 50%;
+}
+
+/* project03 */
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+}
+.card a figure img {
+  width: 20em;
+  /* margin: 1em; */
+}
